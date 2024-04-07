@@ -1,0 +1,53 @@
+.card-container {
+    display: flex;
+    flex-flow: column;
+    max-width: 250px;
+    align-items: center;
+    border: 1.2px solid var(--bs-dark);
+    padding: 10px;
+}
+
+.card-container img {
+    width: 100%;
+}
+
+button {
+    color: var(--color-light);
+    background: var(--color-secondary);
+    margin: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skill-sec li {
+    padding-block: 10px;
+    padding-inline: 20px;
+    border-radius: 52%;
+    background: var(--color-ternary);
+    margin: 5px;
+    display: inline-block;
+}
+
+span.pro {
+    padding: 5px 7px;
+    margin-right: auto;
+}
+
+span.pro.online {
+    background: lightgreen;
+    line-height: normal;
+}
+
+span.pro.offline{
+    background: yellow;
+    line-height: normal;
+}
+
+.card-sec.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}

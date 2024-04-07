@@ -1,0 +1,13 @@
+
+.navbar{
+    background-color: var(--color-primary);
+}
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-brand > span {
+    margin-left: 1rem;
+    color: var(--color-light);
+}
